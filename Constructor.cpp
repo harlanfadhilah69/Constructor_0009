@@ -1,6 +1,6 @@
 #include <iostream>
+#include <string>
 using namespace std;
-
 
 class mahasiswa
 {
@@ -14,6 +14,7 @@ public:
 	void printAll();
 	mahasiswa(string pnama)
 	{
-
+		nama = pnama;
+		setID();
 	}
 };
